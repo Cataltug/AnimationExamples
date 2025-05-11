@@ -17,7 +17,7 @@ const MyStack = createNativeStackNavigator({
                 headerTintColor: "snow",
                 headerTitleAlign: "center",
                 headerStyle: {
-                    backgroundColor: "dodgerblue",
+                backgroundColor: "dodgerblue",
                     
                 }
             }
@@ -30,7 +30,7 @@ const MyStack = createNativeStackNavigator({
                 headerTintColor: "snow",
                 headerTitleAlign: "center",
                 headerStyle: {
-                    backgroundColor: "dodgerblue",
+                backgroundColor: "dodgerblue",
                     
                 }
             }
@@ -39,11 +39,24 @@ const MyStack = createNativeStackNavigator({
             screen: screens.Challenge,
             options: {
                 headerShown: true,
-                headerTitle: "Challenge",
+                headerTitle: "Bouncing Ball Challenge",
                 headerTintColor: "snow",
                 headerTitleAlign: "center",
                 headerStyle: {
-                    backgroundColor: "dodgerblue",
+                backgroundColor: "dodgerblue",
+                    
+                }
+            }
+        },
+        ColorfulScale: {
+            screen: screens.ColorfulScale,
+            options: {
+                headerShown: true,
+                headerTitle: "ColorfulScale Challenge",
+                headerTintColor: "snow",
+                headerTitleAlign: "center",
+                headerStyle: {
+                backgroundColor: "dodgerblue",
                     
                 }
             }

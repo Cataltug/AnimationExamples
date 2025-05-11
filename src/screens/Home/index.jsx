@@ -27,7 +27,8 @@ const index = () => {
   return (
     <SafeScreen>
         <Button title='to Reanimated' onPress={() => navigation.navigate("Reanimated")}/>
-        <Button title='to Challenge' onPress={() => navigation.navigate("Challenge")}/>
+        <Button title='to Bouncing Ball Challenge' onPress={() => navigation.navigate("Challenge")}/>
+        <Button title='to ColorfulScale Challenge' onPress={() => navigation.navigate("ColorfulScale")}/>
         <Animated.View
         style = {{
             opacity: fadeAnim,
